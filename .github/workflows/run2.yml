@@ -9,12 +9,12 @@ on:
     inputs:
       user:
         description: '用户名'
-        required: true
-        default: ''
+        required: false
+        default: '2929188233@qq.com'
       pwd:
         description: '密码'
-        required: true
-        default: ''
+        required: false
+        default: 'Huawei@123'
 
 jobs:
   build:
